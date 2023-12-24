@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        body {
+            font-size: 0.9vw;
+            background-color: black;
+            display: none;
+            font-family: sans-serif;
+            margin: 0;
+        }
+        div {
+            margin-top: 100px;
+        }
+        p {
+            margin-top: 0;
+        }
+        .h-first {
+            margin-top: 0;
+            font-size: 1vw;
+        }
+        .h {
+            margin: 0;
+            font-size: 1vw;
+        }
+        button {
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 12px 0;
+        }
+        @media screen and (max-width: 428px) {
+            body {
+                display: block;
+                font-size: 2.7vw;
+            }
+            div {
+                background: url("assets/christmas_banner_mobile.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 550px;
+                margin-top: 40px;
+            }
+            article {
+               margin: auto;
+                padding-top: 65%;
+                text-align: center;
+            }
+            button {
+                font-size: 3vw;
+                padding: 10px 0;
+            }
+            hr {
+                width: 90%;
+                margin: auto;
+            }
+            .h-first {
+            font-size: 3vw;
+        }
+        .h {
+            font-size: 3vw;
+        }
+        }
+
+        @media screen and (min-width: 429px) and (max-width: 1024px) {
+            body {
+                display: block;
+                font-size: 1.2vw;
+            }
+            div {
+                background: url("assets/christmas_banner_1024.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 450px;
+                margin-top: 50px;
+            }
+            article {
+                margin-left: 60%;
+                padding-top: 40px;
+                width: 35%;
+                text-align: center;
+            }
+            button {
+                font-size: 1.4vw;
+                padding: 10px 0;
+            }
+            .h-first {
+            font-size: 1.4vw;
+        }
+        .h {
+            font-size: 1.4vw;
+        }
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 1280px) {
+            body {
+                display: block;
+                font-size: 1.1vw;
+            }
+            div {
+                background: url("assets/christmas_banner_1280.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 450px;
+                margin-top: 50px;
+            }
+            article {
+                margin-left: 63%;
+                padding-top: 40px;
+                width: 35%;
+                text-align: center;
+            }
+            .h-first {
+            font-size: 1.3vw;
+        }
+        .h {
+            font-size: 1.3vw;
+        }
+        }
+
+        @media screen and (min-width: 1281px) and (max-width: 1920px) {
+            body {
+                display: block;
+            }
+            div {
+                background: url("assets/christmas_banner_1920.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 500px;
+
+            }
+            article {
+                margin-left: 63%;
+                padding-top: 24px;
+                width: 25%;
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width: 1921px) and (max-width: 2560px) {
+            body {
+                display: block;
+                font-size: 0.8vw;
+            }
+            div {
+                background: url("assets/christmas_banner_2560.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 800px;
+
+            }
+            article {
+                margin-left: 60%;
+                padding-top: 12px;
+                width: 24%;
+                text-align: center;
+            }
+            @media screen and (max-width: 1965px) {
+                article {
+                padding-top: 8px;
+            }
+            }
+            button {
+            padding: 16px 0;
+        }
+        .h-first {
+            font-size: 0.9vw;
+            margin-bottom: 16px;
+        }
+        .h {
+            font-size: 0.9vw;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <article>
+            <h4 class="h-first">YOUR ORDER MUST BE PLACED PRIOR TO THE DATES BELOW TO RECEIVE YOUR RINGS BEFORE CHRISTMAS.</h4>
+            <h4 class="h">4TH NOVEMBER</h4>
+            <p>All engagement rings using standard manufacture time</p>
+            <hr>
+            <h4 class="h">25TH NOVEMBER</h4>
+            <p>All engagement and wedding rings using Express manufacture</p>
+            <hr>
+            <h4 class="h">9TH DECEMBER</h4>
+            <p>Ready-To-Ship engagement ring and jewellery in stock</p>
+            <button type="button">BOOK APPOINTMENT NOW</button>
+        </article>
+    </div>
+</body>
+
+</html>
